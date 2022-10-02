@@ -1,38 +1,35 @@
+html,
+body {
+    height: 100%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+#root,
 .App {
-  text-align: center;
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+    display: flex;
+    flex-direction: column;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-section {
+    display: flex;
+    height: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list-section > div {
+    border: 1px solid rgb(216, 222, 228);
+    flex-basis: 50%;
 }
-
-.App-link {
-  color: #61dafb;
+.filter-section {
+    display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-section {
+    flex-grow: 1;
+}
+.filter-section > div {
+    padding: 0.5rem;
+}
+.MuiPopperUnstyled-root {
+    width: 300px;
 }

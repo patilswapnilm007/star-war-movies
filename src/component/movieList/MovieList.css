@@ -1,0 +1,27 @@
+.list-section {
+    display: flex;
+    height: 100%;
+}
+.movie-list-ul {
+    padding: 0px 1rem;
+}
+.episode-no {
+    margin-right: 1rem;
+}
+li.movie-list-item {
+    border-bottom: 1px solid rgb(216, 222, 228);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0px 1rem;
+}
+li.movie-list-item:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.movie-title-txt {
+    flex-grow: 1;
+    font-weight: 500;
+}
+.movie-list-item > div {
+    padding: 6px 0;
+}
