@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/star-war-movies/static/css/main.424cd0ef.css",
+    "main.js": "/star-war-movies/static/js/main.6ae56e76.js",
+    "static/js/787.01ad361c.chunk.js": "/star-war-movies/static/js/787.01ad361c.chunk.js",
+    "index.html": "/star-war-movies/index.html",
+    "main.424cd0ef.css.map": "/star-war-movies/static/css/main.424cd0ef.css.map",
+    "main.6ae56e76.js.map": "/star-war-movies/static/js/main.6ae56e76.js.map",
+    "787.01ad361c.chunk.js.map": "/star-war-movies/static/js/787.01ad361c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.424cd0ef.css",
+    "static/js/main.6ae56e76.js"
+  ]
+}
